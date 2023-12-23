@@ -1,0 +1,45 @@
+/* styles.css */
+
+/* Apply Roboto font to the entire page */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #333; /* Add your preferred background color */
+    text-align: center;
+}
+
+nav a {
+    display: inline-block; /* Display navigation items inline */
+    padding: 14px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #555; /* Add your preferred hover color */
+}
+
+/* Style the sections */
+section {
+    padding: 50px;
+}
+
+/* Add additional styles for each section if needed */
+#home {
+    background-color: #f0f0f0; /* Add your preferred background color */
+}
+
+#about, #work, #resume, #contact {
+    background-color: #e0e0e0; /* Add your preferred background color */
+}
+
+/* Style the footer */
+footer {
+    background-color: #333; /* Add your preferred background color */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
